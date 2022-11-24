@@ -1,0 +1,114 @@
+*{
+    
+  padding:0px;
+  /* background-color:gray; */
+ 
+  
+}
+
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  background-size: cover;
+  /* overflow: hidden; */
+
+ 
+}
+
+
+
+.login
+
+{
+
+
+  /* border-style: inset; */
+  /* float: right; */
+  margin-top: 170px;
+  /* background-color:white; */
+  height: 360px;
+
+  /* width: 40em; */
+  padding: 30px;
+  margin-right: 20px;
+  /* border-radius: 25px; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* margin-top: 40; */
+}
+
+#uname{
+
+  background-color: #DDDDDD;
+  /* border-radius: 50px; */
+  /* color: #DDDDDD; */
+  
+}
+
+#password{
+
+  background-color: #DDDDDD;
+  /* color: #DDDDDD; */
+  
+}
+
+.fontcolor{
+  /* color: #6464b8; */
+    color: #e5e5e5;
+}
+
+/* a{
+
+} */
+
+.button{
+  
+   border: 3px solid #3305c9;
+  background-color: #3305c9;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+   margin-bottom: 20px; 
+  width: 802px;
+  height: 37px;
+  font-size: 20px;
+}
+
+.button:hover{
+  /* border: 3px solid #3f3f9b;
+  background-color: #3f3f9b; */
+ border: 3px solid #3305c9;
+  background-color: #3305c9;
+
+
+}
+
+.errorMsg{
+  position: absolute;
+  top:-100%;
+  left:50%;
+  width:40%;
+  padding: 0.5% 5%;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+  border-radius: 20px;
+  z-index: 2000;
+  text-align: right !important;
+} 
+ .errorMsg::before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgba(0, 0, 0, 0.753);
+  position: absolute;
+  bottom:-54%;
+  left:67%;
+  z-index: 2000;
+}
+.errorMsg.hidden{
+  display: none;
+}
+
+
+

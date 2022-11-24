@@ -1,0 +1,31 @@
+
+body {
+        background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+        background-size:auto;
+        /* overflow: hidden; */
+      
+       
+      }
+
+
+      .Checkboxgroup{
+        margin-top: 100px;
+        
+
+      }
+
+.disabledList{
+    
+        pointer-events:none; 
+        opacity:0.6;        
+    
+}
+
+#todoList{
+        border: 5px  #3305c9;
+        border-radius: 1rem;
+}
+
+#mainnavbar{
+        background: #3305c9;
+}
